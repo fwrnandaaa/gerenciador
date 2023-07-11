@@ -1,0 +1,10 @@
+.rodape{
+   
+    justify-content: space-around;
+    background-color: rgb(78, 141, 120);
+    display: absolute;
+
+}
+.titulo{
+    text-align: center;
+}

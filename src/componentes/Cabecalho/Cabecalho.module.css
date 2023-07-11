@@ -1,0 +1,23 @@
+.titulo{
+    font-size: 3rem;
+    color:rgb(245, 245, 245);
+   
+   
+}
+.subtitulo{
+    font-size: 2ram;
+    color:rgb(245, 245, 245);
+   
+    
+}
+
+.img{
+    font-size: 2ram;
+    color:rgb(245, 245, 245);
+    ;
+}
+.cabecalho{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(78, 141, 120)
+}
