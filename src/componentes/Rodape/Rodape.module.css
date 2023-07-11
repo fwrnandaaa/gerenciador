@@ -3,6 +3,8 @@
     justify-content: space-around;
     background-color: rgb(78, 141, 120);
     display: absolute;
+   margin-top: 37cm;
+   /* descobrir como bota essa div p baixo e tirar esse margin top */
 
 }
 .titulo{
