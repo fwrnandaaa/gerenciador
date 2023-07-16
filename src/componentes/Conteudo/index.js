@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Conteudo() {
   return (
-    <div>index</div>
+    <div></div>
   )
 }
 /* linha 3 esta criando uma função com o nome conteudo.

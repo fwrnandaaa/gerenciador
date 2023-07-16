@@ -13,12 +13,12 @@ function App() {
     // O react substitui ClassName ´por Class pois Class é palavra reservada do JS. Mas ambos significam a mesma coisa.
 
     <>
-    <Cabecalho logo ="logo192.png" titulo="fernanda" subtitulo = "um app querido"/>
+    <Cabecalho logo ="logo192.png" titulo="REACT" subtitulo = "O melhor gerenciador."/>
     {/* é usado a variavel titulo para dar um nome, pois ele pode ser usado diversas vezes. */}
       <Conteudo/>
       
-      <Rodape titulo = "testandooo"/>
-      <Rodape/>
+      <Rodape logo="ifrnLogo.png" titulo = "16/07/2023"/>
+     
     </>
   
   );

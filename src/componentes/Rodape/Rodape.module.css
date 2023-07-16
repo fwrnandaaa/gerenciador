@@ -2,11 +2,35 @@
    
     justify-content: space-around;
     background-color: rgb(78, 141, 120);
+    bottom: 0%;
     display: absolute;
-   margin-top: 37cm;
-   /* descobrir como bota essa div p baixo e tirar esse margin top */
+    position: fixed;
+    width: 100%;
+  
 
 }
 .titulo{
     text-align: center;
 }
+.img{
+    width: 2%;
+    margin-bottom: 1ram;
+    color: rgb(245, 245, 245);
+    margin-bottom: 1%;
+    margin-left: 1%;
+    
+}
+.icones {
+ width: 20px;
+ display: flex;
+justify-content: space-around;
+}
+.divIcones{
+
+   margin-left: 95%;
+}
+.DataCorrente{
+
+}
+
+/* desacobrir oq vai dentro do data corrente p fazer a data mudar normal */
