@@ -6,6 +6,7 @@
     display: absolute;
     position: fixed;
     width: 100%;
+    
   
 
 }
@@ -29,8 +30,8 @@ justify-content: space-around;
 
    margin-left: 95%;
 }
+
 .DataCorrente{
-
+    
 }
-
 /* desacobrir oq vai dentro do data corrente p fazer a data mudar normal */

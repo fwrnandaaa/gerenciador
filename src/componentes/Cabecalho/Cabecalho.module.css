@@ -1,5 +1,5 @@
 .titulo{
-    font-size: 3rem;
+    font-size: 1rem;
     color:rgb(245, 245, 245);
    
    
@@ -12,12 +12,15 @@
 }
 
 .img{
-    font-size: 1ram;
-    color:rgb(245, 245, 245);
-    ;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+
 }
 .cabecalho{
     display:flex;
     justify-content: space-around;
-    background-color: rgb(78, 141, 120)
+    background-color: rgb(78, 141, 120);
+height: 55px;
+    
 }

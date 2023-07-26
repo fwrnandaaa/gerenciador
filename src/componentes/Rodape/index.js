@@ -8,7 +8,7 @@ export default function Rodape(props) {
   return (
     
     <div className = {styles.rodape}>
-      <p className={styles.DataCorrente}>{mostraData()}</p>
+      {/* <p className={styles.DataCorrente}>{mostraData()}</p> */}
 <p className={styles.titulo}> {props.titulo}</p>
 <img className = {`${styles.titulo}, ${styles.img}`}src={props.logo}></img> 
    
@@ -23,10 +23,10 @@ export default function Rodape(props) {
 
   )
 
-  function mostraData() {
+   function mostraData() {
       const Date =new Date();
       return Date.toLocalDateString;
-  }
+  } 
 }
 
 

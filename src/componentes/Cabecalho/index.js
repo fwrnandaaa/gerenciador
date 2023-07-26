@@ -10,7 +10,7 @@ export default function Cabecalho(props) {
 <div className = {styles.cabecalho}>
     <p className={styles.titulo} >{props.titulo}</p>
     <p className={styles.subtitulo}>{props.subtitulo}</p>
-    <img className = {`%${styles.titulo}, ${styles.img}`}src= {props.logo}></img> 
+    <img className = {`${styles.titulo}, ${styles.img}`}src= {props.logo}></img> 
     </div>
     </>
     //props é o objeto q recebe as propriedades escrita no titulo e no subtitulo na file cabecalho
