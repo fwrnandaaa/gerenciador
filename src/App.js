@@ -1,8 +1,7 @@
 import "./App.css";
 import Cabecalho from "./componentes/Cabecalho";
-import Conteudo, {OlaMundo} from "./componentes/Conteudo";
+import Conteudo, { OlaMundo } from "./componentes/Conteudo";
 import Rodape from "./componentes/Rodape";
-
 
 //HTML + js é chamado de Arquivo App JSX, pois é o JS extendido.
 //Componente funcional é chamado assim pois é uma função. Ex: function App.
@@ -13,14 +12,16 @@ function App() {
     // O react substitui ClassName ´por Class pois Class é palavra reservada do JS. Mas ambos significam a mesma coisa.
 
     <>
-    <Cabecalho logo ="logo192.png" titulo="REACT" subtitulo = "O melhor gerenciador."/>
-    {/* é usado a variavel titulo para dar um nome, pois ele pode ser usado diversas vezes. */}
-      <Conteudo/>
-      
-      <Rodape logo="ifrnLogo.png" titulo = "16/07/2023"/>
-     
+      <Cabecalho
+        logo="logo192.png"
+        titulo="REACT"
+        subtitulo="O melhor gerenciador."
+      />
+      {/* é usado a variavel titulo para dar um nome, pois ele pode ser usado diversas vezes. */}
+      <Conteudo />
+
+      <Rodape logo="ifrnLogo.png" titulo="oi" Date="mostraData" />
     </>
-  
   );
 }
 

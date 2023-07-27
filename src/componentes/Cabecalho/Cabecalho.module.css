@@ -1,26 +1,22 @@
-.titulo{
-    font-size: 1rem;
-    color:rgb(245, 245, 245);
-   
-   
+.titulo {
+  font-size: 1rem;
+  color: rgb(245, 245, 245);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 }
-.subtitulo{
-    font-size: 2ram;
-    color:rgb(245, 245, 245);
-   
-    
+.subtitulo {
+  font-size: 2ram;
+  color: rgb(245, 245, 245);
 }
 
-.img{
+.img {
   width: 40px;
   height: 40px;
   margin-top: 10px;
-
 }
-.cabecalho{
-    display:flex;
-    justify-content: space-around;
-    background-color: rgb(78, 141, 120);
-height: 55px;
-    
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(78, 141, 120);
+  height: 55px;
 }

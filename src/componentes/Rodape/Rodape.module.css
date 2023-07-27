@@ -1,37 +1,31 @@
-.rodape{
-   
-    justify-content: space-around;
-    background-color: rgb(78, 141, 120);
-    bottom: 0%;
-    display: absolute;
-    position: fixed;
-    width: 100%;
-    
-  
-
+.rodape {
+  justify-content: space-around;
+  background-color: rgb(78, 141, 120);
+  bottom: 0%;
+  display: absolute;
+  position: fixed;
+  width: 100%;
 }
-.titulo{
-    text-align: center;
+.titulo {
+  text-align: center;
 }
-.img{
-    width: 2%;
-    margin-bottom: 1ram;
-    color: rgb(245, 245, 245);
-    margin-bottom: 1%;
-    margin-left: 1%;
-    
+.img {
+  width: 2%;
+  margin-bottom: 1ram;
+  color: rgb(245, 245, 245);
+  margin-bottom: 1%;
+  margin-left: 1%;
 }
 .icones {
- width: 20px;
- display: flex;
-justify-content: space-around;
+  width: 20px;
+  display: flex;
+  justify-content: space-around;
 }
-.divIcones{
-
-   margin-left: 95%;
+.divIcones {
+  margin-left: 95%;
 }
 
-.DataCorrente{
-    
+.DataCorrente {
+  color: blue;
 }
 /* desacobrir oq vai dentro do data corrente p fazer a data mudar normal */
