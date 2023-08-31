@@ -7,10 +7,13 @@ import Rodape from "./componentes/Rodape";
 //Componente funcional é chamado assim pois é uma função. Ex: function App.
 function App() {
   //Todo componente deve retornar um html entre parenteses.
+  alert("Olá, sou um gerenciador.")
+  //um alert n pode ficar dentro do return, apenas se estiver entre chaves;
   OlaMundo();
   return (
     // O react substitui ClassName ´por Class pois Class é palavra reservada do JS. Mas ambos significam a mesma coisa.
-
+    //tudo que tiver dentro do return será mostrado pro cliente enquanto oq tiver fora é a parte funcional
+//<> é um atalho para "div" e serve de elemento pai para os outros returns.
     <>
       <Cabecalho
         logo="logo192.png"
