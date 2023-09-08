@@ -9,7 +9,7 @@ import Estados from "./exemplos/Estados";
 //Componente funcional é chamado assim pois é uma função. Ex: function App.
 function App() {
   //Todo componente deve retornar um html entre parenteses.
-  alert("Olá, sou um gerenciador.")
+
   //um alert n pode ficar dentro do return, apenas se estiver entre chaves;
   OlaMundo();
   return (
