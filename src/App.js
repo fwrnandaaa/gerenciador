@@ -1,6 +1,6 @@
 import "./App.css";
 import Cabecalho from "./componentes/Cabecalho";
-import Conteudo, { OlaMundo } from "./componentes/Conteudo";
+//import Conteudo, { OlaMundo } from "./componentes/Conteudo";
 import Rodape from "./componentes/Rodape";
 import Estados from "./exemplos/Estados";
 
@@ -11,7 +11,7 @@ function App() {
   //Todo componente deve retornar um html entre parenteses.
 
   //um alert n pode ficar dentro do return, apenas se estiver entre chaves;
-  OlaMundo();
+ // OlaMundo();
   return (
     // O react substitui ClassName ´por Class pois Class é palavra reservada do JS. Mas ambos significam a mesma coisa.
     //tudo que tiver dentro do return será mostrado pro cliente enquanto oq tiver fora é a parte funcional
