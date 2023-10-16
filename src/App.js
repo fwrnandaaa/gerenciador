@@ -1,5 +1,6 @@
 import "./App.css";
-import "./componentes/Cadastrousuario";
+import   Cadastro  from "./componentes/Cadastrousuario";
+import Login from "./componentes/LoginUsuario";
 import Cabecalho from "./componentes/Cabecalho";
 import Conteudo from "./componentes/Conteudo2";
 //import Conteudo, { OlaMundo } from "./componentes/Conteudo";
@@ -20,8 +21,9 @@ function App() {
 //<> é um atalho para "div" e serve de elemento pai para os outros returns.
     <>
 
-      {/* <Estados /> */}
-      
+      {/* {<Estados />} */}
+      <Cadastro/> 
+    <Login/>
       {/* <Cabecalho
         logo="logo192.png"
         titulo="REACT"
