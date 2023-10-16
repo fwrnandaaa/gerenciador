@@ -1,4 +1,5 @@
 import "./App.css";
+import "./componentes/Cadastrousuario";
 import Cabecalho from "./componentes/Cabecalho";
 import Conteudo from "./componentes/Conteudo2";
 //import Conteudo, { OlaMundo } from "./componentes/Conteudo";
@@ -20,13 +21,14 @@ function App() {
     <>
 
       {/* <Estados /> */}
+      
       {/* <Cabecalho
         logo="logo192.png"
         titulo="REACT"
         subtitulo="O melhor gerenciador."
       /> */}
       {/* é usado a variavel titulo para dar um nome, pois ele pode ser usado diversas vezes. */}
-      <Conteudo />
+      {/* <Conteudo /> */}
 {/* 
       <Rodape logo="ifrnLogo.png" titulo="oi" Date="mostraData" /> */}
     </>
