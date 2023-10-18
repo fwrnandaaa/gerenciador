@@ -21,7 +21,7 @@ const Login = () => {
 
   return (
     <>
-      <h1>Cadastro de Usuário</h1>
+      <h1>Login de Usuário</h1>
       <label>Email</label>
       <input
         name="email"
