@@ -29,10 +29,12 @@ const Cadastro = () => {
           alert("Usuário cadastrado com sucesso!")
     
         } else {
+            
           alert  ("As senha não coincidem");
         }
         
-    } return ( 
+    } 
+}return ( 
     <>
     <h1>Cadastro de Usuário</h1> 
 
@@ -64,7 +66,7 @@ const Cadastro = () => {
 </>
 )    
 
-}
+
 
 }
 export default Cadastro;
