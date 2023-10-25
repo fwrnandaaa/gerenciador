@@ -1,17 +1,31 @@
 import React from 'react'
-import { BrowserRouter, Route, } from 'react-router-dom'
+import Login from './paginas/LoginUsuario'
+import Cadastro from './paginas/Cadastrousuario'
+import Cabecalho from './componentes/Cabecalho'
+import Rodape from './componentes/Rodape'
 
-const routes = () => {
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Principal from './paginas/Principal'
+
+const Rotas = () => {
     return (
         <BrowserRouter>
+            <Cabecalho
+                logo="logo192.png"
+                titulo="REACT"
+                subtitulo="Mitski"
+            />
             <Routes>
-                <Route path="/" element={<Principal/>}/>
-                <Route path="/login" element={<Principal/>}/>
-                <Route path="/cadastro" element={<Principal/>}/>
-             
+                <Route path="/" element={<Principal />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/cadastro" element={<Cadastro />} />
+
+
+
             </Routes>
+            <Rodape logo="ifrnLogo.png" titulo="" Date="mostraData" />
         </BrowserRouter>
     )
 }
 
-export default routes
+export default Rotas;

@@ -1,4 +1,5 @@
 import React from "react";
+import Menu from '../Menu';
 import styles from './Cabecalho.module.css'
 export default function Cabecalho(props) {
   return (
@@ -11,6 +12,8 @@ export default function Cabecalho(props) {
 <div className = {styles.teste}>
 <p className={styles.titulo} >{props.titulo}</p>
 <img className = {`${styles.titulo}, ${styles.img}`}src= {props.logo}></img> 
+<Menu/>
+
     
     </div>
     <p className={styles.subtitulo}>{props.subtitulo}</p>

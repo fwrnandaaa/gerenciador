@@ -21,27 +21,33 @@ const Login = () => {
 
   return (
     <>
-      <h1>Login de Usuário</h1>
-      <label>Email</label>
-      <input
-        name="email"
-        onChange={(evento) => {
-          setEmail(evento.target.value);
-        }}
-      />
-      <br />
-
-      <label>Senha</label>
-      <input
-        type="password"
-        name="senha"
-        onChange={(evento) => {
-          setSenha(evento.target.value);
-        }}
-      />
-      <br />
-
-      <input type="button" value="Login" onClick={buscarUsuario} />
+      <div className={styles.login}>
+        <h1>Login de Usuário</h1>
+        <div className={styles.preencher}>
+          <label>Email</label>
+          <input
+            name="email"
+            onChange={(evento) => {
+              setEmail(evento.target.value);
+            }}
+          />
+          <br />
+        </div>
+        <div >
+          <div className={styles.preencher}>
+            <label>Senha</label>
+            <input
+              type="password"
+              name="senha"
+              onChange={(evento) => {
+                setSenha(evento.target.value);
+              }}
+            />
+            <br />
+          </div>
+          <input type="button" value="Login" onClick={buscarUsuario} />
+        </div>
+      </div>
     </>
   );
 };

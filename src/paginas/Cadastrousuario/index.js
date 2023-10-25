@@ -39,6 +39,7 @@ const Cadastro = () => {
             <div className={styles.cadastro}>
                 <h1 id="cadastroTitulo">Cadastro de Usuário</h1>
                 <div className={styles.preencher}>
+                    
                     <label> Email</label>
                     <input name='email' onChange={(evento) => { setEmail(evento.target.value); }}>
                     </input> <br />
